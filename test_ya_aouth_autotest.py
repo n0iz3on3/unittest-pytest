@@ -11,7 +11,7 @@ PASSWORD = '^&^SNn09VfvA09Mno89oZ^&^'
 @pytest.fixture
 def browser():
     chrome_options = Options()
-    # chrome_options.add_argument("--headless") # включаем режим работы браузера без открытия окна на мониторе
+    chrome_options.add_argument("--headless") # включаем режим работы браузера без открытия окна на мониторе
     browser = webdriver.Chrome(options=chrome_options)
     return browser
 
