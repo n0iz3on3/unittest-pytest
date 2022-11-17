@@ -1,7 +1,7 @@
 import requests
 import pytest
 
-TOKEN = '...'
+TOKEN = '....'
 
 FIXTURES = [
     ('test_folder', 201), # Успешно создан новый объект
