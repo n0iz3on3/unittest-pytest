@@ -5,8 +5,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 LINK = "https://passport.yandex.ru/auth/add"
-LOGIN = 'mochalov.s.e'
-PASSWORD = '^&^SNn09VfvA09Mno89oZ^&^'
+LOGIN = '...'
+PASSWORD = '...'
 
 @pytest.fixture
 def browser():
